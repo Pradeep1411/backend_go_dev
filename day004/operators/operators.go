@@ -28,4 +28,19 @@ func main() {
 	x |= 3 // bitwise and & opertor converts both 10 , 3 to binary representation, then do AND
 	fmt.Println(x)
 
+	// Comparison operator
+	var a1 = 5
+	var b1 = 2
+	fmt.Println(a1 == b1)
+	fmt.Println(a1 != b1)
+	fmt.Println(a1 > b1)
+	fmt.Println(a1 < b1)
+	fmt.Println(a1 >= b1)
+	fmt.Println(a1 <= b1)
+
+	// Logical operators
+	// x<5 && y<8 // return true if both statement true else false
+	// x<5 || y<8 // return true if any of the statement true
+	// !( x<5 || y<8) // reverse the result
+
 }
