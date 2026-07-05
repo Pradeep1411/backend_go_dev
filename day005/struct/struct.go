@@ -29,6 +29,7 @@ func main() {
 	pers2.age = 30
 	pers2.designation = "UP Lead"
 	pers2.salary = 200000
+	fmt.Println(pers1)
 
 	printAll(pers1)
 	printAll(pers2)

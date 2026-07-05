@@ -56,7 +56,7 @@ func main() {
 	fmt.Printf("capacity: %d \n", cap(slice1))
 
 	// Memory efficiency : copy function
-	// copy(dest,src)
+	// cop
 	numbers := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
 	fmt.Printf("numbers: %v \n", numbers)
 	fmt.Printf("length: %d \n", len(numbers))
