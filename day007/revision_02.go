@@ -65,3 +65,30 @@ func main() {
 	fmt.Println(emp1)
 
 }
+
+type car struct {
+	model      string
+	year       int
+	frontWheel wheel
+	backWheel  wheel
+}
+type wheel struct {
+	radius   int
+	material string
+}
+
+type student struct {
+	roll_num int
+	address  struct {
+		city    string
+		pincode int
+	}
+}
+type basiccar struct {
+	model string
+	make  string
+}
+type suzuki struct {
+	basiccar
+	topspeed int
+}
