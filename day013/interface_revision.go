@@ -70,7 +70,7 @@ func test(e expense) {
 		fmt.Println("Invalid expense")
 	}
 }
-func mains() {
+func main() {
 	test(email{
 		isSubscribed: true,
 		body:         "Hello there",
