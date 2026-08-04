@@ -10,7 +10,7 @@ func main() {
 	fmt.Printf("a \t %v \n", a)
 	fmt.Printf("b \t %v \n", b)
 
-	// create map using main() func
+	// create map using make() func
 
 	//  var a=make(map[keytype]valuetype)
 	// b:=make(map[keytype]valuetype)
