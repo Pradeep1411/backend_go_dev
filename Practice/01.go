@@ -382,7 +382,7 @@ func eculideanAlgo(n1, n2 int) {
 	}
 	fmt.Println("GCD is:", n1)
 }
-func main() {
+func mains() {
 	// printStars1(5)
 	// reverseNum(10400)
 	// fmt.Println(palnidrome(123421))
